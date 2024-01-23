@@ -1,0 +1,130 @@
+  <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+
+                                        <li> <a href="index.html">Home</a> </li>
+                                        <li > <a href="music.html">music</a> </li>
+                                        <li> <a href="album.html"> Albums</a> </li>
+                                        <li> <a href="blog.html">Blog</a> </li>
+                                        <li> <a href="contact.html">Contact</a> </li>
+                                        <li class="active"> <a href="upload.html">Upload&ThickSpace; </a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                        <form class="search">
+                            <input class="form-control" type="text" placeholder="Search">
+                            <button><img src="images/search_icon.png"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end header inner -->
+    </header>
+    <!-- end header -->
+
+    <div class="aboutbg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="abouttitlepage">
+                        <h2>Upload</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="box-container aboutbg" style="width: 100vw; height: 68.8vh;">
+    <div class="container" style="z-index: 1000;" >
+        <div class="row">
+            <div class="aboutbg col-lg-2 userdetail"  style="position: fixed; left:-10px; height: 68.8vh;">
+                <label for="fileImg" class="adminphoto">
+                <input type="file" id="fileImg">
+                <img src="images/album2.jpg" id="profileImg" alt="">
+             </label>
+             <div class="detail">
+                <h2 id="username">Admin Name</h2><br>
+                <br>
+                <div class="box-rate" style="color: black; margin-left:20px; position: relative; top: -12px;">
+                    <div class="download" style="color: black; position: relative; top: -12px;">
+                        <p id="drate" class="h5" style="color: black; position: relative; top: -12px;">0</p>
+                        <p style="color: black; position: relative; top: -12px;">download</p>
+                    </div>
+                    <div class="search" style="color: black; position: relative; top: -12px;" >
+                        <p id="srate"  class="h5" style="color: black; position: relative; top: -12px;">0</p>
+                        <p style="color: black; position: relative; top: -12px;">search</p>
+                    </div>
+                                  </div>
+                                  <br>
+                <h5 style="text-align: center;">UBA</h5>
+                <h5 style="text-align: center;">2303599885</h5>
+                <br>
+                <h3 id="email" style="text-align: center;">adminemail@gmail.com</h3>
+                <p style="text-align: center;">build you!</p>
+
+             </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="container"  style="z-index: 1000;">
+    <div class="row">
+        <form action="/saveSong" method="post">
+        <div class="col-md-12 " style="height: 68.9vh;display:flex; flex-direction: row; gap: 40px; flex-wrap: wrap; background-color: black; padding: 20px 20px 20px 20px; box-shadow: inset 0px 10px rgb(8, 0, 0);">
+            <div class="profile">
+          <label for="profile">
+            <input type="file" name="songimg" id="profile" required>
+            <img src="images/uploadimage.png"  id="musicProfile" name="songimage" alt="">
+            <input type="text" name="songsimage" id="imgimg" style="display:none;">
+            <caption >Profile</caption>
+          </label>
+        </div>
+    
+          <label for="title">
+            <input type="text" name="title" id="title" placeholder=" Song Title " class="form-control">
+          </label>
+          <p class="p">
+            note that links are not allowed and that you are not allowed  to post someone song or name, <br>
+           give the song title and a lyrics click on choose file to pick your song,click on the upload<br>
+            profile image to upload your song profile. this we been seen when users are downloading it..
+          </p>
+          <label for="description">
+            Song lyrics:
+            <textarea  id="description" name="lyrics"  cols="55" rows="6.5"></textarea>
+          </label>
+          <label for="song">
+             Upload Song
+            <input type="file" name="song" id="song"  accept="mp4,mp3">
+          </label>
+          <button type="submit" id="btnsubmit" class="btn btn-primary">Submit Live</button>
+        </div>
+    </form>
+
+    </div>
+   </div>
+</div>
+  

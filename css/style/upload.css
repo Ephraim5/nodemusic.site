@@ -1,0 +1,48 @@
+.profile{
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    input{
+        display: none;
+    }
+  
+}
+#title{
+    width: 600px;
+    height: 40px;
+}
+.p{
+    color:white;
+    position: relative;
+    right: -288px;
+    top:-280px;
+    }
+    label[for="description"]{
+        color:black;
+        position: relative;
+        right: -200px;
+        top:-300px;
+        textarea{
+            font-size: 30px;
+            overflow-y: scroll;
+            text-wrap: wrap;
+        }
+    }
+    #btnsubmit{
+        position: absolute;
+        left: 70px;
+        top:400px;
+        width: 150px;
+        height: 65px;
+    }
+    #song{
+        position: absolute;
+        left: 70px;
+        top:320px;
+        width: 150px;
+        height: 65px;
+    }
+    body{
+        overflow: hidden;
+    }

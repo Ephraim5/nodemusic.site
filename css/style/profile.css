@@ -1,0 +1,68 @@
+.userdetail{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 5px 30px 5px;
+    width: auto;
+    .adminphoto{
+        width: 12vw;
+        height: 12vw;
+        border: 2px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-self: center;
+        input[type="file"]{
+            display: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    .detail{
+        margin: 20px 20px 20px 20px;
+        label{
+            font-size: 20px;
+            color: white;
+        }
+    #username{
+        position: relative;
+        top:-8px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+    h5{
+        position: relative;
+        top:15px;
+        font-weight: bolder;
+    }
+    p{
+        color:  black;
+    }
+      
+}
+}
+.box-rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    position: relative;
+    top:-8px;
+    color: black;
+    .h5{
+        color: black;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+#email{
+    font-weight: bolder;
+    position: relative;
+    top:12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
