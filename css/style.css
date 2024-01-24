@@ -62,11 +62,27 @@
         height: 300px;
         
     }
+    
+ .banner-main .carousel-item img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
     .card{
         width:100vw;
-        max-height: 500px;
+        max-height: 550px;
        background-color: black;
+       margin: 0px 0px 0px 0px;
+       position: relative;
+       top:-90px;
+       padding: 10px 5px 10px 5px;
     }
+    .banner-main {
+        position: relative;
+        height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
 }
  body {
      color: #666666;
