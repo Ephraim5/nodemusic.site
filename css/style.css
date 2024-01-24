@@ -21,10 +21,10 @@
      scroll-behavior: smooth;
 }
 .card-subtitle{
-    color: white;
+    color: black;
 }
 .card-title{
-    color:white;
+    color:black;
     font-size: 20px;
 }
 .card-img-top{
@@ -32,11 +32,16 @@
     height: 300px;
     
 }
+audio{
+    width: 20vw;
+}
 .card{
     width:20rem;
-    max-height: 500px;
-   background-color: black;
-   margin: 2px 20px 2px 50px;
+    max-height: 570px;
+   background-color: white;
+   border: 1px solid black;
+   padding: 10px 5px 10px 5px;
+   margin: 5px 20px 5px 50px;
 }
 .input-hover:hover{
    border-color: orangered;
@@ -51,10 +56,13 @@
 }
 @media screen and (max-width:650px) {
     .card-subtitle{
-        color: white;
+        color: black;
+    }
+    audio{
+        width: 70vw;
     }
     .card-title{
-        color:white;
+        color:black;
         font-size: 25px;
     }
     .card-img-top{
@@ -65,21 +73,35 @@
     
  .banner-main .carousel-item img {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     position: relative;
 }
     .card{
-        width:100vw;
-        max-height: 560px;
-       background-color: black;
-       margin: 0px 0px 0px 0px;
+        width:80vw;
+        max-height: 570px;
+       background-color: white;
+       margin: 10px 10px 10px 10px;
        position: relative;
        top:-90px;
        padding: 10px 5px 10px 5px;
+       border: 1px solid black;
+    }
+    #holder{
+        width: 100vw;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .black{
+        width: 100vw;
+        height: 20vh;
+        background-color: black;
+        position: relative;
+        top:-1px;
     }
     .banner-main {
         position: relative;
-        height: 100vh;    
+        height: 60vh;    
     background-repeat: no-repeat;
     background-size: cover;
    }
